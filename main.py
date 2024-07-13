@@ -142,10 +142,10 @@ if __name__ == "__main__":
     # Initialize global variables
     menu_screen: bool = True  # Flag to indicate if the menu is displayed
     menu: dict[str, str] = {
-        "Start": "enter to start...",
-        "Controls": "controls here",
-        "About": "i am cool",
-        "Exit [esc]": "( ﾉ ﾟｰﾟ)ﾉ"
+        "Start": "Press enter to start.",
+        "Controls": "Controls Below",
+        "About": "Made by 3 peeps.",
+        "Exit [esc]": "-\_('_')_/-"
     }
     pos: Pos = Pos((1, len(menu)))  # Initialize position for the menu
     from minesweeper import Minesweeper  # Import the Minesweeper game
